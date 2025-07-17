@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		051C73B82E2888E4002F0747 /* STDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051C737B2E27BF97002F0747 /* STDesignSystem.framework */; };
-		051C73C32E288DD6002F0747 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C73C22E288DBC002F0747 /* README.swift */; };
 		051C73C72E289003002F0747 /* License.md in Resources */ = {isa = PBXBuildFile; fileRef = 051C73C62E288FFF002F0747 /* License.md */; };
 		051C73FD2E2891E1002F0747 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C73FC2E2891E1002F0747 /* Package.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		051C737B2E27BF97002F0747 /* STDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		051C73B42E2888E3002F0747 /* STDesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STDesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		051C73C22E288DBC002F0747 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
 		051C73C62E288FFF002F0747 /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
 		051C73FC2E2891E1002F0747 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +66,6 @@
 			children = (
 				051C73FC2E2891E1002F0747 /* Package.swift */,
 				051C73C62E288FFF002F0747 /* License.md */,
-				051C73C22E288DBC002F0747 /* README.swift */,
 				051C737D2E27BF97002F0747 /* STDesignSystem */,
 				051C73B52E2888E4002F0747 /* STDesignSystemTests */,
 				051C737C2E27BF97002F0747 /* Products */,
@@ -204,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051C73C32E288DD6002F0747 /* README.swift in Sources */,
 				051C73FD2E2891E1002F0747 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
