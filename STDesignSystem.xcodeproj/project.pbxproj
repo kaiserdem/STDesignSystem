@@ -30,14 +30,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		051C737D2E27BF97002F0747 /* STDesignSystem */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = STDesignSystem;
-			sourceTree = "<group>";
-		};
 		051C73B52E2888E4002F0747 /* STDesignSystemTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = STDesignSystemTests;
+			sourceTree = "<group>";
+		};
+		05BA68442E28CCFA00080DBD /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -64,9 +64,9 @@
 		051C73712E27BF97002F0747 = {
 			isa = PBXGroup;
 			children = (
+				05BA68442E28CCFA00080DBD /* Sources */,
 				051C73FC2E2891E1002F0747 /* Package.swift */,
 				051C73C62E288FFF002F0747 /* License.md */,
-				051C737D2E27BF97002F0747 /* STDesignSystem */,
 				051C73B52E2888E4002F0747 /* STDesignSystemTests */,
 				051C737C2E27BF97002F0747 /* Products */,
 			);
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				051C737D2E27BF97002F0747 /* STDesignSystem */,
+				05BA68442E28CCFA00080DBD /* Sources */,
 			);
 			name = STDesignSystem;
 			packageProductDependencies = (
